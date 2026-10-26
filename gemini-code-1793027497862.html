@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- サイトのタイトル（ブラウザのタブに表示される名前） -->
+    <title>夜空と翼</title>
+    <style>
+        /* 画面全体のスタイル（完全な単色黒） */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 画像の表示サイズ調整（画面からはみ出さず中央に配置） */
+        .centered-image {
+            max-width: 90vw;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 💡 ここで同じ階層にある「TitleUnknown.jpg」を指定して読み込みます -->
+    <img src="TitleUnknown.jpg" alt="夜空と翼" class="centered-image">
+
+</body>
+</html>
